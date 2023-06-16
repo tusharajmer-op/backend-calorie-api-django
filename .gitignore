@@ -1,0 +1,30 @@
+# Ignore database files
+*.sqlite3
+
+# Ignore static files collected by 'collectstatic'
+/static/
+
+# Ignore media files uploaded by users
+/media/
+
+# Ignore environment-specific settings
+.env
+
+# Ignore generated Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore local development server
+*.log
+runserver.pid
+
+# Ignore sensitive or local configuration files
+secret_key.txt
+settings_local.py
+
+# Ignore virtual environment
+calvenv/
